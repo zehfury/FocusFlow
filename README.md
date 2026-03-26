@@ -1,17 +1,46 @@
-# focusflow
+# FocusFlow
 
-A new Flutter project.
+FocusFlow is a Flutter productivity app with a Pomodoro timer, notes, and local analytics.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Pomodoro timer (Focus/Break) with start, pause, reset, and skip
+- Local notifications when sessions end
+- Notes feature (add, edit, delete) stored locally
+- Analytics screen for focus time and completed sessions
+- Dark-mode first, clean and responsive UI
 
-A few resources to get you started if this is your first Flutter project:
+## Tech Stack
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- Flutter
+- Riverpod (state management)
+- Hive (local storage)
+- go_router (navigation)
+- flutter_local_notifications (alerts)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
+
+```text
+lib/
+  core/       # app-wide theme, notifications, shared infrastructure
+  features/   # feature-first modules (timer, notes, analytics, tasks)
+  shared/     # reusable widgets and utilities
+  app/        # router and app shell
+```
+
+## Run Locally
+
+1. Install Flutter SDK
+2. Get packages:
+   - `flutter pub get`
+3. Run app:
+   - `flutter run`
+
+## Build APK
+
+- `flutter build apk`
+
+## Notes
+
+- Data is stored locally on device (Hive).
+- Notifications require Android notification permissions.
