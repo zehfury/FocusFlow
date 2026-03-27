@@ -32,9 +32,40 @@ lib/
   features/   # feature-first modules (timer, notes, analytics, tasks)
   shared/     # reusable widgets and utilities
   app/        # router and app shell
-📱 Preview
-<p align="center"> <img src="https://github.com/zehfury/FocusFlow/blob/main/flutter-8.jpg?raw=true" width="180"/> <img src="https://github.com/zehfury/FocusFlow/blob/main/flutter-8.jpg?raw=true" width="180"/> <img src="https://github.com/zehfury/FocusFlow/blob/main/flutter-9.jpg?raw=true" width="180"/> </p> <p align="center"> <sub>📊 Dashboard</sub> &nbsp;&nbsp;&nbsp;&nbsp; <sub>⏱️ 25 mins Work</sub> &nbsp;&nbsp;&nbsp;&nbsp; <sub>☕ 5 mins Break</sub> </p> <br> <p align="center"> <img src="https://via.placeholder.com/180x360?text=Notes" width="180"/> <img src="https://github.com/zehfury/FocusFlow/blob/main/flutter-10.jpg?raw=true" width="180"/> <img src="https://github.com/zehfury/FocusFlow/blob/main/flutter-11.jpg?raw=true" width="180"/> </p> <p align="center"> <sub>📝 Notes</sub> &nbsp;&nbsp;&nbsp;&nbsp; <sub>➕ New Note</sub> &nbsp;&nbsp;&nbsp;&nbsp; <sub>✅ Tasks</sub> </p>
-▶️ Run Locally
+```
+
+## 📱 Preview
+
+<p align="center">
+  <img src="https://github.com/zehfury/FocusFlow/blob/main/flutter-8.jpg?raw=true" width="180"/>
+  <img src="https://github.com/zehfury/FocusFlow/blob/main/flutter-8.jpg?raw=true" width="180"/>
+  <img src="https://github.com/zehfury/FocusFlow/blob/main/flutter-9.jpg?raw=true" width="180"/>
+</p>
+
+<p align="center">
+  <sub>📊 Dashboard</sub> &nbsp;&nbsp;&nbsp;&nbsp;
+  <sub>⏱️ 25 mins Work</sub> &nbsp;&nbsp;&nbsp;&nbsp;
+  <sub>☕ 5 mins Break</sub>
+</p>
+
+<br>
+
+<p align="center">
+  <img src="https://via.placeholder.com/180x360?text=Notes" width="180"/>
+  <img src="https://github.com/zehfury/FocusFlow/blob/main/flutter-10.jpg?raw=true" width="180"/>
+  <img src="https://github.com/zehfury/FocusFlow/blob/main/flutter-11.jpg?raw=true" width="180"/>
+</p>
+
+<p align="center">
+  <sub>📝 Notes</sub> &nbsp;&nbsp;&nbsp;&nbsp;
+  <sub>➕ New Note</sub> &nbsp;&nbsp;&nbsp;&nbsp;
+  <sub>✅ Tasks</sub>
+</p>
+
+---
+
+## ▶️ Run Locally
+
 Install Flutter SDK
 
 Get packages:
