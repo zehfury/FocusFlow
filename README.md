@@ -1,24 +1,30 @@
-# FocusFlow
+# 🚀 FocusFlow
 
 FocusFlow is a Flutter productivity app with a Pomodoro timer, notes, and local analytics.
 
-## Features
+---
 
-- Pomodoro timer (Focus/Break) with start, pause, reset, and skip
-- Local notifications when sessions end
-- Notes feature (add, edit, delete) stored locally
-- Analytics screen for focus time and completed sessions
-- Dark-mode first, clean and responsive UI
+## ✨ Features
 
-## Tech Stack
+- ⏱️ Pomodoro timer (Focus/Break) with start, pause, reset, and skip  
+- 🔔 Local notifications when sessions end  
+- 📝 Notes feature (add, edit, delete) stored locally  
+- 📊 Analytics screen for focus time and completed sessions  
+- 🌙 Dark-mode first, clean and responsive UI  
 
-- Flutter
-- Riverpod (state management)
-- Hive (local storage)
-- go_router (navigation)
-- flutter_local_notifications (alerts)
+---
 
-## Project Structure
+## 🛠️ Tech Stack
+
+- Flutter  
+- Riverpod (state management)  
+- Hive (local storage)  
+- go_router (navigation)  
+- flutter_local_notifications (alerts)  
+
+---
+
+## 📂 Project Structure
 
 ```text
 lib/
@@ -26,21 +32,20 @@ lib/
   features/   # feature-first modules (timer, notes, analytics, tasks)
   shared/     # reusable widgets and utilities
   app/        # router and app shell
-```
+📱 Preview
+<p align="center"> <img src="https://via.placeholder.com/180x360?text=Dashboard" width="180"/> <img src="https://via.placeholder.com/180x360?text=25+Min+Work" width="180"/> <img src="https://via.placeholder.com/180x360?text=5+Min+Break" width="180"/> </p> <p align="center"> <sub>📊 Dashboard</sub> &nbsp;&nbsp;&nbsp;&nbsp; <sub>⏱️ 25 mins Work</sub> &nbsp;&nbsp;&nbsp;&nbsp; <sub>☕ 5 mins Break</sub> </p> <br> <p align="center"> <img src="https://via.placeholder.com/180x360?text=Notes" width="180"/> <img src="https://via.placeholder.com/180x360?text=New+Note" width="180"/> <img src="https://via.placeholder.com/180x360?text=Tasks" width="180"/> </p> <p align="center"> <sub>📝 Notes</sub> &nbsp;&nbsp;&nbsp;&nbsp; <sub>➕ New Note</sub> &nbsp;&nbsp;&nbsp;&nbsp; <sub>✅ Tasks</sub> </p>
+▶️ Run Locally
+Install Flutter SDK
 
-## Run Locally
+Get packages:
 
-1. Install Flutter SDK
-2. Get packages:
-   - `flutter pub get`
-3. Run app:
-   - `flutter run`
+flutter pub get
 
-## Build APK
+Run app:
 
-- `flutter build apk`
-
-## Notes
-
-- Data is stored locally on device (Hive).
-- Notifications require Android notification permissions.
+flutter run
+📦 Build APK
+flutter build apk
+📝 Notes
+Data is stored locally on device (Hive)
+Notifications require Android notification permissions
