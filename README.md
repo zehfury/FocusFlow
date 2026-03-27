@@ -51,7 +51,6 @@ lib/
 <br>
 
 <p align="center">
-  <img src="https://via.placeholder.com/180x360?text=Notes" width="180"/>
   <img src="https://github.com/zehfury/FocusFlow/blob/main/flutter-10.jpg?raw=true" width="180"/>
   <img src="https://github.com/zehfury/FocusFlow/blob/main/flutter-11.jpg?raw=true" width="180"/>
 </p>
